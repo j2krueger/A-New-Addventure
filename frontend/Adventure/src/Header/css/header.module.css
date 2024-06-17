@@ -1,0 +1,16 @@
+.header {
+  background-color: #19e7ad;
+  padding: 10px 20px;
+  color: #010907;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.subHeader h2 {
+    padding-right: 20px;
+}

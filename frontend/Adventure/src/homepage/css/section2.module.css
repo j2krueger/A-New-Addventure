@@ -1,0 +1,27 @@
+.background {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9d89f3;
+  height: 500px;
+  padding: 100px; 
+}
+.background h1 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #010907;
+    position: relative;
+    font-size: 60px;
+
+    padding: 2%;
+    margin-top: 0;
+}
+    
+.box {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: #19e7ad; 
+  
+}
+
