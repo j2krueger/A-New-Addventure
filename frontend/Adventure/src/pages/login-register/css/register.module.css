@@ -1,0 +1,60 @@
+/* Register.module.css */
+
+:root {
+  --text: #010907;
+  --background: #f7fefc;
+  --primary: #19e7ad;
+  --secondary: #9d89f3;
+  --accent: #a44aec;
+}
+
+/* Container for the entire registration form */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  height: 70vh;
+  padding: 20px;
+}
+
+/* Title styling */
+.title {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+/* Register button */
+.registerButton {
+  background-color: var(--secondary);
+  color: var(--text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 32px;
+  transition: background-color 0.3s;
+}
+
+.registerButton:hover {
+  background-color: var(--accent);
+}

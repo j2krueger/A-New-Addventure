@@ -1,0 +1,40 @@
+footer {
+    
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    border: none;
+    overflow: hidden;
+    color: white;
+}
+
+.foot{
+    font-size: 28px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .5fr .5fr .5fr .5fr; 
+}
+
+.title {
+    font-size: 36px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .foot{
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    footer {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        background-color: black;
+        border: none;
+        overflow: hidden;
+        color: white;
+    }
+}

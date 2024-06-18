@@ -1,0 +1,19 @@
+.main {
+    height: 600px;
+    background-color: #9d89f3;
+}
+.searchInput {
+    margin: 25px 0 0 50px;
+    max-width: 25%;
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 8px;
+    border: 0;
+    outline: none;
+}
+.results {
+    height:70%;
+    width: 80%;
+    margin: 50px;
+    background-color: #19e7ad;
+}

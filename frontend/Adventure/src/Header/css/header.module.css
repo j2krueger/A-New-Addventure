@@ -6,6 +6,10 @@
   justify-content: space-between;
   align-items: center;
 }
+header a {
+  text-decoration: none;
+  color: #010907;
+}
 .subHeader {
     display: flex;
     justify-content: space-between;
