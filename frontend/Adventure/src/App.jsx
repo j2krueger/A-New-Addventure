@@ -7,6 +7,8 @@ import Homepage from "./homepage/homepage";
 import Register from "./pages/login-register/register";
 import Login from "./pages/login-register/login";
 import Dashboard from "./pages/dashboard/dashboard";
+import EntryPage from "./entrypage/entrypage"
+import Profile from "./pages/profile/profile"
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/entry/:id" element={<EntryPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile/:id" element={<Profile />} />
         </Routes>
         <Footer />
       </UserContextProvider>

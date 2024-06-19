@@ -1,0 +1,37 @@
+:root {
+  --text: #010907;
+  --background: #f7fefc;
+  --primary: #19e7ad;
+  --secondary: #9d89f3;
+  --accent: #a44aec;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    background-color: #9d89f3;
+    font-family: "Indie Flower", cursive;
+    color: #010907;
+    font-size: 36px;
+    padding: 100px;
+}
+
+.author a{
+    color: red;
+    text-decoration: none;
+}
+.title {
+    margin: 50px;
+}
+.entry {
+    margin: 0 0 50px 100px;
+}
+.choice {
+    margin: 0 0 0 50%;
+    list-style-type: square;
+}
+.previousEntry a {
+    color: red;
+    text-decoration: none;
+}

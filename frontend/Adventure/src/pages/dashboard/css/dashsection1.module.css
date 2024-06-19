@@ -1,3 +1,10 @@
+:root {
+  --text: #010907;
+  --background: #f7fefc;
+  --primary: #19e7ad;
+  --secondary: #9d89f3;
+  --accent: #a44aec;
+}
 .main {
     height: 600px;
     background-color: #9d89f3;

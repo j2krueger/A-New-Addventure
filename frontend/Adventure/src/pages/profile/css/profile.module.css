@@ -1,0 +1,61 @@
+:root {
+  --text: #010907;
+  --background: #f7fefc;
+  --primary: #19e7ad;
+  --secondary: #9d89f3;
+  --accent: #a44aec;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+  background-color: #9d89f3;
+  font-family: "Indie Flower", cursive;
+  color: #010907;
+  font-size: 36px;
+  padding: 10% 20% 10% 20%;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.image img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.username {
+  
+  margin-top: 10px;
+}
+
+.bio {
+  
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contributions ul {
+  list-style: circle;
+  padding: 0;
+}
+
+.contributions li {
+  margin-bottom: 10px;
+  color: var(--text);
+  /* Add hover effect if desired */
+}
