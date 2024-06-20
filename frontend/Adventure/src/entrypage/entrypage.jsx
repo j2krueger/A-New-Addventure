@@ -7,10 +7,16 @@ const EntryPage = () => {
     <div className={styles.main}>
       <div className={styles.author}>
         {" "}
-        By <Link to="/profile:id">Test author</Link>
+        By <Link to="/profile/:id">Test author</Link>
       </div>
-      <div className={styles.title}>Title: </div>
-      <div className={styles.entry}>full story</div>
+      <div className={styles.title}>Entry Title: </div>
+      <div className={styles.entry}>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo.
+      </div>
       <ul className={styles.choice}>
         <li>next choice</li>
         <li>next choice</li>

@@ -6,8 +6,26 @@
   --accent: #a44aec;
 }
 .main {
-    height: 600px;
+    height: 800px;
     background-color: #9d89f3;
+}
+
+.header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1% 25% 0 25%;
+}
+#logout{
+    background-color: #19e7ad;
+    color: #010907;
+    border: none; 
+    padding: 8px 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#logout:hover {
+  background-color: #15c48e; 
 }
 .searchInput {
     margin: 25px 0 0 50px;

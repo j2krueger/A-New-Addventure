@@ -20,16 +20,16 @@ const Profile = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-            <div className={styles.contributions}>
+          <div className={styles.contributions}>
             <ul>
-                <li>Link to entry</li>
-                <li>Link to entry</li>
-                <li>Link to entry</li>
-                <li>Link to entry</li>
-                <li>Link to entry</li>
-                <li>Link to entry</li>
+              <li>Link to entry</li>
+              <li>Link to entry</li>
+              <li>Link to entry</li>
+              <li>Link to entry</li>
+              <li>Link to entry</li>
+              <li>Link to entry</li>
             </ul>
-            </div>
+          </div>
         </div>
       </div>
     </>

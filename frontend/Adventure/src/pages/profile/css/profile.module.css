@@ -22,10 +22,7 @@
   align-items: center;
   margin-bottom: 20px;
 }
-.bottom {
-  display: flex;
-  flex-direction: row;
-}
+
 .image img {
   height: 150px;
   width: 150px;
@@ -38,7 +35,6 @@
 }
 
 .bio {
-  
   text-align: center;
   margin-top: 20px;
 }

@@ -9,6 +9,12 @@ import Login from "./pages/login-register/login";
 import Dashboard from "./pages/dashboard/dashboard";
 import EntryPage from "./entrypage/entrypage"
 import Profile from "./pages/profile/profile"
+import axios from "axios";
+
+const url = import.meta.env.VITE_API_URL;
+
+axios.defaults.baseURL = url || process.env.VITE_API_URL;
+axios.defaults.withCredentials = true;
 
 
 function App() {
